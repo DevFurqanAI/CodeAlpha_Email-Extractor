@@ -1,6 +1,6 @@
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"> <img src="https://img.shields.io/badge/Category-Automation-orange?style=for-the-badge"> </p>
 
-## CodeAlpha_Email-Extractor
+## Email Extractor
 
 A simple Python automation script that reads a text file, extracts all email addresses using regex, and saves them to an output file. Built with clean OOP design and basic file handling. Perfect for beginners learning Python automation.
 
