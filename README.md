@@ -1,6 +1,8 @@
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"> <img src="https://img.shields.io/badge/Category-Automation-orange?style=for-the-badge"> </p>
 
-A simple, object-oriented Python script that extracts email addresses from a text file and saves them to another file. Built with clear OOP design, regex-based extraction, and basic file handling. Perfect for beginners learning automation with Python.
+## CodeAlpha_Email-Extractor
+
+A simple Python automation script that reads a text file, extracts all email addresses using regex, and saves them to an output file. Built with clean OOP design and basic file handling. Perfect for beginners learning Python automation.
 
 ## ✨ Key Features
 - 📄 Reads input from any .txt file
@@ -9,11 +11,7 @@ A simple, object-oriented Python script that extracts email addresses from a tex
 
 - 💾 Saves extracted emails to a separate output file
 
-- 🧱 Clean Object-Oriented structure:
-
-  - EmailExtractor class → handles file reading, email extraction, and saving
-
-  - run() method → coordinates the workflow
+- 🧱 Clean Object-Oriented design with EmailExtractor class
 
 - ⚠️ Error handling for missing input files
 
@@ -24,25 +22,18 @@ README.md            # Project documentation
 ```
 
 ## 🚀 Getting Started
-### 1. Install Python
-
-Ensure Python 3.x is installed. 
-Check using:
+**1.** Make sure Python 3.x is installed:
 ```bash
 python --version
 ```
+**2.** Place your input file (e.g., `input.txt`) in the project directory.
 
-### 2. Run the Program
+**3.** Run the Program
 ```bash
 python Email_Extractor.py
 ```
 
-### 3. Use the Script
-- Place your input .txt file in the same directory (default name: files.txt)
-
-- The script will extract emails and save them to emails_output.txt
-
-- You can change the file names by editing the script’s EmailExtractor instantiation
+**4.** Extracted emails will be saved to `emails_output.txt`.
 
 ## 🧱 Code Structure (OOP)
 | Class / Method     | Purpose                                        |
@@ -78,8 +69,6 @@ Enhance this project by adding features like:
 - GUI interface (Tkinter / PyQt)
 
 - Export to CSV or Excel
-
-  Pull requests and forks are welcome!
 
 ## 📜 License
 This project is free to use, modify, and share.
